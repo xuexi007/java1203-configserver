@@ -1,0 +1,15 @@
+server:
+  port: 8008
+spring:
+  datasource:
+    url: jdbc:mysql://db1:3306/jpa001?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: UserProvider
+ProviderVersion: UserProvider001:7.7.7V   
