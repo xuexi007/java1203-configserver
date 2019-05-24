@@ -12,4 +12,4 @@ spring:
     show-sql: true
   application:
     name: UserProvider
-ProviderVersion: UserProvider001:7.7.7V   
+ProviderVersion: UserProvider002:8.8.8V   
